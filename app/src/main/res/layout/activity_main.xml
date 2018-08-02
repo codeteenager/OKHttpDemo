@@ -13,6 +13,12 @@
         android:onClick="syncRequest"
         android:text="同步请求" />
 
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="asyncRequest"
+        android:text="异步请求" />
+
     <TextView
         android:id="@+id/content"
         android:layout_width="match_parent"
